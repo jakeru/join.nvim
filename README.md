@@ -8,7 +8,7 @@ Bug reports and improvements are very welcome!
 
 ## Demo
 
-https://github.com/jakeru/join.nvim.dev/blob/6011856f415d8365a896c7aeb5c1d57bdf2c76c6/demo.gif
+<img alt="Screencast demo" src="https://github.com/jakeru/join.nvim.dev/blob/6011856f415d8365a896c7aeb5c1d57bdf2c76c6/demo.gif" />
 
 ## Installation
 
