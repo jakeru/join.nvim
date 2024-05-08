@@ -1,0 +1,3 @@
+[submodule "join.nvim.dev"]
+	path = join.nvim.dev
+	url = git@github.com:jakeru/join.nvim.dev.git

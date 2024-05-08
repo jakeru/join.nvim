@@ -6,6 +6,10 @@ It has been tested with [Neovim](https://neovim.io/) version 0.9.4.
 
 Bug reports and improvements are very welcome!
 
+## Demo
+
+https://github.com/jakeru/join.nvim.dev/blob/6011856f415d8365a896c7aeb5c1d57bdf2c76c6/demo.gif
+
 ## Installation
 
 ### lazy.nvim
@@ -13,10 +17,11 @@ Bug reports and improvements are very welcome!
 Add the following to the list of your plugins:
 
 ```lua
-    {
-        'jakeru/join.nvim',
-        config = true,
-    }
+{
+    'jakeru/join.nvim',
+    config = true,
+    submodules = false,
+},
 ```
 
 ## Usage
