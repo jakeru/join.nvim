@@ -23,7 +23,7 @@ this tool does not merge lines belonging to different paragraphs.
 
 Add the following to the list of your plugins:
 
-```lua
+``` lua
 {
     'jakeru/join.nvim',
     config = true,
@@ -31,3 +31,9 @@ Add the following to the list of your plugins:
 },
 ```
 
+If you want to invoke the tool using a combination of keys, add something like
+this to your configuration:
+
+``` lua
+vim.keymap.set("v", "<Leader>J", require('join').join, { desc = "Join selected lines" })
+```
